@@ -42,6 +42,12 @@ nav a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;/* Ensure the video doesn't overflow its container */
+}
+
+.video-container video {
+    max-width: 100%; /* Set maximum width to 100% of its container */
+    height: auto; /* Maintain the aspect ratio */
 }
 
 /* Add space below the video content */
